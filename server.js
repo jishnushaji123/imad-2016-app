@@ -22,7 +22,7 @@ app.get('/ethixx', function (req, res)
 });
 app.get('/ethixx', function (req, res)
 {
-    res.sendFile(path.join(__dirname, 'index1.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'index1.html'));
 });
 
 
