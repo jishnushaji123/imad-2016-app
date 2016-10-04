@@ -50,7 +50,7 @@ app.get('/ethixx', function (req, res)
 {
     res.sendFile(path.join(__dirname, 'ui', 'index1.html'));
 });
-app.get('/ethixx', function (req, res)
+app.get('/ui', function (req, res)
 {
     res.sendFile(path.join(__dirname, 'ui', 'index1.html'));
 });
