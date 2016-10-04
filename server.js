@@ -9,23 +9,23 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/style.css', function (req, res) {
+app.get('/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-app.get('/ui/animate.css', function (req, res) {
+app.get('/animate.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'animate.css'));
 });
 
-app.get('/ui/font-awesome.min.css', function (req, res) {
+app.get('/font-awesome.min.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'font-awesome.min.css'));
 });
-app.get('/ui/jquery.fancybox.css', function (req, res) {
+app.get('/jquery.fancybox.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'jquery.fancybox.css'));
 });
-app.get('/ui/jquery.fs.boxer.min.css', function (req, res) {
+app.get('/jquery.fs.boxer.min.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'jquery.fs.boxer.min.css'));
 });
-app.get('/ui/lightview.css', function (req, res) {
+app.get('/lightview.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'lightview.css'));
 });
 app.get('/ui/main.css', function (req, res) {
@@ -34,16 +34,16 @@ app.get('/ui/main.css', function (req, res) {
 app.get('/ui/owl.carousel.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'owl.carousel.css'));
 });
-app.get('/ui/slit-slider.css', function (req, res) {
+app.get('/slit-slider.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'slit-slider.css'));
 });
-app.get('/ui/superslides.css', function (req, res) {
+app.get('/superslides.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'superslides.css'));
 });
-app.get('/ui/bootstrap.min.css', function (req,res){
+app.get('/bootstrap.min.css', function (req,res){
     res.sendFile(path.join(__dirname, 'ui','bootstrap.min.css'));
 });
-app.get('/ui/madi.png', function (req, res) {
+app.get('/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/ethixx', function (req, res)
